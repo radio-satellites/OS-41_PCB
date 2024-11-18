@@ -5,4 +5,6 @@
   (lib (name "ATGM")(type "KiCad")(uri "${KIPRJMOD}/ATGM336H-TR.kicad_sym")(options "")(descr ""))
   (lib (name "433mhz")(type "KiCad")(uri "${KIPRJMOD}/433MHz.kicad_sym")(options "")(descr ""))
   (lib (name "Boost")(type "KiCad")(uri "${KIPRJMOD}/TPS61200DRCR.kicad_sym")(options "")(descr ""))
+  (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/crystal_4pin.kicad_sym")(options "")(descr ""))
+  (lib (name "downconv")(type "KiCad")(uri "${KIPRJMOD}/TLV62569DBVR.kicad_sym")(options "")(descr ""))
 )
