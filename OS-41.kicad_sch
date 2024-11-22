@@ -3323,6 +3323,123 @@
 				)
 			)
 		)
+		(symbol "libs:GPS1003"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GPS1003"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "libs:ANT-SMD_L10.0-W3.0"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Rainsun-microwave-Tech-GPS1003_C239243.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C239243"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GPS1003_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 10.16 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -7.11 2.03)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "libs:TS-1187A-B-A-B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6063,6 +6180,28 @@
 			)
 		)
 	)
+	(global_label "GPS_ANT"
+		(shape input)
+		(at 63.5 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8935ff62-2294-4aa8-8ae2-54f3e673e693")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.589 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 123.19 96.52 90)
@@ -6452,6 +6591,28 @@
 		(uuid "a8db2130-cf7f-4514-bb3a-0987a52da094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.391 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 40.64 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a90c63bd-933c-4d5c-8d00-6825997cb081")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.7843 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,6 +8938,83 @@
 		)
 	)
 	(symbol
+		(lib_id "libs:GPS1003")
+		(at 50.8 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3824f367-a002-4334-97f1-7fe8ccfaf1b0")
+		(property "Reference" "U7"
+			(at 52.07 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GPS1003"
+			(at 52.07 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "libsos41:ANT-SMD_L10.0-W3.0"
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Rainsun-microwave-Tech-GPS1003_C239243.html"
+			(at 50.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C239243"
+			(at 50.8 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04167dfc-58d8-4637-af65-085e1bdaf3cf")
+		)
+		(pin "1"
+			(uuid "556706dc-2dd1-4911-9dea-9b7a64c6ecfe")
+		)
+		(instances
+			(project ""
+				(path "/d2225c9f-058e-4f40-b93c-9ee01fd58030"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 48.26 90)
 		(unit 1)
@@ -9643,7 +9881,7 @@
 			)
 		)
 		(property "Value" "8.2pF"
-			(at 158.496 94.234 90)
+			(at 158.75 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
