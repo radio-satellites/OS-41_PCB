@@ -1,9 +1,9 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,10uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,141.175,-116.3125,0.0,top
-C10,12pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,118.7,-110.7,90.0,top
+C10,12pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,118.7,-110.937499,90.0,top
 C11,8.2pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,116.5,-104.0,-90.0,top
 C12,4.7uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,122.8,-119.6,0.0,top
-C13,9.1pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,113.0,-110.0,90.0,top
+C13,9.1pF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,113.0,-110.3,90.0,top
 C14,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,130.7,-115.5,-90.0,top
 C15,1uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,133.4,-115.5,-90.0,top
 C16,22uF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,135.9,-115.5,-90.0,top
@@ -34,7 +34,7 @@ L6,24nH,L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,112.3,-107.6,180.0,top
 L7,2.2uH,L_0603_1608Metric_Pad1.05x0.95mm_HandSolder,109.9,-117.8,90.0,top
 R1,12k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,158.2,-107.5875,90.0,top
 R10,562k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,128.0,-119.4,-90.0,top
-R11,50,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,115.4,-111.6,0.0,top
+R11,50,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,115.3875,-111.9,0.0,top
 R12,4.7k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,158.454765,-114.645235,45.0,top
 R13,44k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,117.1,-119.2,-90.0,top
 R14,200k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,117.1,-115.7,-90.0,top
@@ -42,7 +42,7 @@ R2,12k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,157.4,-110.7,180.0,top
 R3,12k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.7125,-102.6,0.0,top
 R4,12k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,134.1,-99.6,0.0,top
 R5,12k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,153.9125,-116.3,180.0,top
-R6,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,166.2,-119.6125,90.0,top
+R6,12k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,166.2,-119.6125,90.0,top
 R7,220k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.8,-91.5,0.0,top
 R8,110k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,135.8,-93.1,180.0,top
 R9,976k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,128.0,-115.4,-90.0,top
