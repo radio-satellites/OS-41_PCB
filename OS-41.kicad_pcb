@@ -4602,7 +4602,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor handsolder")
 		(property "Reference" "L1"
-			(at 0 -1.43 90)
+			(at -0.140001 -1.415 90)
 			(layer "F.SilkS")
 			(uuid "578da651-1fe2-4d13-9213-bb5caa7f8508")
 			(effects
@@ -18426,8 +18426,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "USBBOOT"
-		(at 127.4 119 90)
+	(gr_text "BOOT"
+		(at 127.4 117.32 90)
 		(layer "F.SilkS")
 		(uuid "be0dad02-a76a-4d00-9f05-f6f072662445")
 		(effects
