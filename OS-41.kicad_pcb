@@ -15848,7 +15848,7 @@
 		(uuid "f7009c38-75ad-42c5-9cb9-5deeb68f7aa7")
 		(at 131 116.8 180)
 		(property "Reference" "L6"
-			(at 2.9 0.47 90)
+			(at 3.1 -1.3 90)
 			(layer "F.SilkS")
 			(uuid "6102ac93-2e44-4530-b415-3702fb98442a")
 			(effects
