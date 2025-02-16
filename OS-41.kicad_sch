@@ -7141,6 +7141,16 @@
 		)
 		(uuid "0c0e03c1-ce65-46f4-9ffe-14b8e23271c1")
 	)
+	(text "General-purpose GPIOs for interfacing"
+		(exclude_from_sim no)
+		(at 237.49 224.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ed888d7-11e9-4b5c-8a87-39c1b284a128")
+	)
 	(text "This is a C285642"
 		(exclude_from_sim no)
 		(at 72.136 190.754 0)
@@ -7150,6 +7160,16 @@
 			)
 		)
 		(uuid "159454a5-be18-40d2-8aca-d96b3813c254")
+	)
+	(text "General GPIOs"
+		(exclude_from_sim no)
+		(at 224.028 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16fa7f2d-6ee7-41d8-9940-178d3f6440ea")
 	)
 	(text "External Sensor"
 		(exclude_from_sim no)
@@ -7183,6 +7203,26 @@
 		)
 		(uuid "2f90623c-3373-446a-9dea-b5122a83e32f")
 	)
+	(text "LEDs to indicate status"
+		(exclude_from_sim no)
+		(at 203.2 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "444f4421-9c97-47ec-8af7-f98b55aea866")
+	)
+	(text "Pullups"
+		(exclude_from_sim no)
+		(at 226.568 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53942c34-3894-4731-a25c-de8ef1d752ab")
+	)
 	(text "UART0"
 		(exclude_from_sim no)
 		(at 213.868 92.71 0)
@@ -7192,6 +7232,16 @@
 			)
 		)
 		(uuid "5ab876ba-a09f-4637-b9f2-6a1ef242d9e0")
+	)
+	(text "This switch activates the bootloader"
+		(exclude_from_sim no)
+		(at 169.926 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ba1da44-256d-49e6-9fa1-f2c5779905db")
 	)
 	(text "This must be close to pin 45"
 		(exclude_from_sim no)
@@ -7212,6 +7262,26 @@
 			)
 		)
 		(uuid "66c1d06f-5529-45ba-8dec-bba0f391c89b")
+	)
+	(text "GPS, for telling where we are"
+		(exclude_from_sim no)
+		(at 69.342 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a478b46-6980-424d-a94d-288f577234c0")
+	)
+	(text "Sensors to read data"
+		(exclude_from_sim no)
+		(at 154.686 187.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f8e0719-a349-43dc-9bc7-5fe22737208b")
 	)
 	(text "LEDs!"
 		(exclude_from_sim no)
@@ -7255,9 +7325,19 @@
 		)
 		(uuid "9d071adc-2b76-4ee4-9089-107528a20df0")
 	)
-	(text "SPI0"
+	(text "The MCP1640 boosts 3v/1.5v to 3.3v for operation from batteries"
 		(exclude_from_sim no)
-		(at 216.408 113.538 0)
+		(at 85.344 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dd72e1b-d408-4763-b0f7-e6af02fee488")
+	)
+	(text "Radio control"
+		(exclude_from_sim no)
+		(at 219.964 113.538 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7287,6 +7367,16 @@
 		)
 		(uuid "b63b6ceb-2154-48c9-bf60-34ab801b0daf")
 	)
+	(text "Flash memory!"
+		(exclude_from_sim no)
+		(at 306.578 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd968d46-2974-445d-a346-f63a0be81e50")
+	)
 	(text "Wired up in I2C Mode"
 		(exclude_from_sim no)
 		(at 152.4 237.744 0)
@@ -7296,6 +7386,16 @@
 			)
 		)
 		(uuid "d4f6d314-a5b6-4533-bfd4-2cd8753ffeb5")
+	)
+	(text "This one resets the chip"
+		(exclude_from_sim no)
+		(at 142.748 57.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d57f7adb-23e3-42b5-84a3-81bf6b86ef65")
 	)
 	(text "GPS"
 		(exclude_from_sim no)
@@ -7308,6 +7408,16 @@
 			)
 		)
 		(uuid "e82d00b6-362e-4765-802d-e2b0bd19ceca")
+	)
+	(text "A crystal clock source for the MCU"
+		(exclude_from_sim no)
+		(at 268.986 106.172 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb0751cc-a7f3-484a-923c-6b78f028eb5a")
 	)
 	(text "Note: I initially really messed the matching up. The Si4432 PA is a switching PA, so it needs some unusual matching networks. Check out AN435"
 		(exclude_from_sim no)
@@ -7330,6 +7440,16 @@
 			)
 		)
 		(uuid "f247d37a-cf9e-45de-b626-425752407d84")
+	)
+	(text "5V regulator --> 3.3v for the MCU"
+		(exclude_from_sim no)
+		(at 235.966 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f324784a-2155-49c0-bfe9-879fdbcbe8fc")
 	)
 	(global_label "GND"
 		(shape input)
