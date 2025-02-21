@@ -12352,7 +12352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4308128a-a108-485e-b552-ae8f07773c2e")
-		(property "Reference" "U8"
+		(property "Reference" "X2"
 			(at 248.92 87.63 0)
 			(effects
 				(font
@@ -12419,7 +12419,7 @@
 		(instances
 			(project ""
 				(path "/d2225c9f-058e-4f40-b93c-9ee01fd58030"
-					(reference "U8")
+					(reference "X2")
 					(unit 1)
 				)
 			)
