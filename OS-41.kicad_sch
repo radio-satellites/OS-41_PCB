@@ -8475,6 +8475,28 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 120.65 233.68 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "49d967ce-7ce2-4760-bace-ca9ab4658859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.65 227.0662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 128.27 226.06 180)
@@ -11722,6 +11744,73 @@
 			(project ""
 				(path "/d2225c9f-058e-4f40-b93c-9ee01fd58030"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "282d8513-96ce-4f3d-98cb-6b638f1cba41")
+		(property "Reference" "R18"
+			(at 124.46 235.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 128.524 235.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 124.46 235.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e68e5231-212d-439a-90d3-83089e2c991c")
+		)
+		(pin "2"
+			(uuid "a50f3e25-6607-482f-9469-3a9c998bd017")
+		)
+		(instances
+			(project "OS-41"
+				(path "/d2225c9f-058e-4f40-b93c-9ee01fd58030"
+					(reference "R18")
 					(unit 1)
 				)
 			)
