@@ -20422,7 +20422,7 @@
 		)
 	)
 	(gr_text "PWR"
-		(at 121.77 109.98 0)
+		(at 121.66 110.01 0)
 		(layer "F.SilkS")
 		(uuid "02666985-51fc-497f-be43-7c3b370ee182")
 		(effects
