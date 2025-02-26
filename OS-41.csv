@@ -16,13 +16,13 @@
 15;"L1";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"270nH";;;
 16;"U4";"GPSM-SMD_ATGM336H-TR";1;"ATGM336H-5N31";;;
 17;"J7";"PinSocket_1x09_P2.54mm_Vertical";1;"Conn_01x09_Pin";;;
-18;"U8";"CRYSTAL-SMD_4P-L3.2-W2.5-BL";1;"ABM8-272-T3_C20625731";;;
+18;"X2";"CRYSTAL-SMD_4P-L3.2-W2.5-BL";1;"ABM8-272-T3_C20625731";;;
 19;"U3";"SOT-23-6";1;"MCP1640x-xCHY";;;
 20;"C3";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"9.1pF";;;
 21;"U1";"ANT-SMD_L10.0-W3.0";1;"GPS1003";;;
 22;"C30,C28,C11,C4";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";4;"10uF";;;
-23;"R8,R14,R13";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"4.7k";;;
-24;"R9,R5,R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"10k";;;
+23;"R8";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"4.7k";;;
+24;"R9,R5,R2,R18,R14,R13";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";6;"10k";;;
 25;"U2";"QLP20";1;"SI4432-B1-FMR";;;
 26;"L4";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"39nH";;;
 27;"X1";"CRYSTAL-SMD_4P-L3.2-W2.5-BL";1;"SMD-3225_4P 30.000MHZ 10PF";;;
