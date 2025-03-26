@@ -7283,6 +7283,18 @@
 		)
 		(uuid "6f8e0719-a349-43dc-9bc7-5fe22737208b")
 	)
+	(text "Assembly Notes from first run:\n\n- USB CONNECTOR: FIX FOOTPRINT\n- Some lablings (C, R, U1, etc.) unclear"
+		(exclude_from_sim no)
+		(at 331.724 220.726 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "74df2287-da55-4f1a-8286-6d93a66d0351")
+	)
 	(text "LEDs!"
 		(exclude_from_sim no)
 		(at 169.672 218.186 0)
