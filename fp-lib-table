@@ -3,4 +3,5 @@
   (lib (name "libsos41")(type "KiCad")(uri "${KIPRJMOD}/libs.pretty")(options "")(descr ""))
   (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/libs.pretty")(options "")(descr "")(disabled))
   (lib (name "centdir")(type "KiCad")(uri "/home/ve3svf/Documents/OS-41")(options "")(descr ""))
+  (lib (name "flash")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
 )

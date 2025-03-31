@@ -1,4 +1,4 @@
-24573234947158787
+24578463968835131
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98979,6 +98979,27 @@ SOT95P280X145-5N
 0
 5
 5
+flash
+USON-8_UX_2x3x0p6_WIN
+
+W25Q16JVUXIQ TR 
+0
+9
+9
+flash
+USON-8_UX_2x3x0p6_WIN-L
+
+W25Q16JVUXIQ TR 
+0
+9
+9
+flash
+USON-8_UX_2x3x0p6_WIN-M
+
+W25Q16JVUXIQ TR 
+0
+9
+9
 libsos41
 ANT-SMD_L10.0-W3.0
 

@@ -7,4 +7,5 @@
   (lib (name "Boost")(type "KiCad")(uri "${KIPRJMOD}/TPS61200DRCR.kicad_sym")(options "")(descr ""))
   (lib (name "crystal")(type "KiCad")(uri "${KIPRJMOD}/crystal_4pin.kicad_sym")(options "")(descr ""))
   (lib (name "downconv")(type "KiCad")(uri "${KIPRJMOD}/TLV62569DBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "flash")(type "KiCad")(uri "${KIPRJMOD}/2025-03-26_12-40-22.kicad_sym")(options "")(descr ""))
 )
