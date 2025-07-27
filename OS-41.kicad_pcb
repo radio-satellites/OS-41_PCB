@@ -5204,14 +5204,15 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J9"
-			(at 0 -2.33 0)
-			(layer "F.SilkS")
+			(at 0 -2.33 -0)
+			(layer "B.SilkS")
 			(uuid "3f703287-d43b-43e0-ba79-578804bad4cd")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -10018,14 +10019,15 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J8"
-			(at -0.5 -2.36 0)
-			(layer "F.SilkS")
+			(at -0.5 -2.36 -0)
+			(layer "B.SilkS")
 			(uuid "1a904365-1b8c-4e74-9d80-f0c83e1e17d9")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
@@ -17755,6 +17757,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPS Ant."
+		(at 128.5 79.8 0)
+		(layer "F.SilkS")
+		(uuid "66b5b864-149d-4ee9-9723-0145264ae272")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
