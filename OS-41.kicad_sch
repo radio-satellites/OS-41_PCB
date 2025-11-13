@@ -5990,6 +5990,46 @@
 			)
 		)
 	)
+	(global_label "NIRQ"
+		(shape input)
+		(at 326.39 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0457f162-1589-4a0b-a061-da3bab14d03b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDO"
+		(shape input)
+		(at 326.39 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "063aaf6b-9dde-4e6c-8c5d-92ae59488e43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 284.48 40.64 0)
@@ -6446,6 +6486,26 @@
 			)
 		)
 	)
+	(global_label "SDN"
+		(shape input)
+		(at 326.39 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36a48b96-eaa0-4938-a7d7-53b942846052")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape input)
 		(at 280.67 52.07 90)
@@ -6658,6 +6718,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDI"
+		(shape input)
+		(at 326.39 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c51cf89-1934-4900-a9c2-5127018cd76c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7742,6 +7822,26 @@
 			)
 		)
 	)
+	(global_label "SCLK"
+		(shape input)
+		(at 326.39 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0911d1a-a592-4046-8b84-67c919e87d78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 128.27 240.03 270)
@@ -7888,6 +7988,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NSEL"
+		(shape input)
+		(at 326.39 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2aadc38-63be-4981-87cb-c953afde37c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10074,7 +10194,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "libsos41:SMD_SW_NEW_REDONE"
 			(at 266.7 57.15 0)
 			(effects
 				(font
@@ -10251,6 +10371,7 @@
 		)
 		(pin "22"
 			(uuid "cc02da78-ea7c-4c0e-8ab2-f946bbdb0dab")
+			(alternate "USART3_RX")
 		)
 		(pin "28"
 			(uuid "4ccaabf9-b115-44ef-92f1-0ccdad7d8ed2")
@@ -10267,9 +10388,11 @@
 		)
 		(pin "16"
 			(uuid "9d773edf-f549-4896-b965-4f61d005e2e0")
+			(alternate "SPI1_MISO")
 		)
 		(pin "17"
 			(uuid "55e9c337-e988-439b-93c3-039261655962")
+			(alternate "SPI1_MOSI")
 		)
 		(pin "32"
 			(uuid "5f05dba4-92e2-4d51-ba2c-95f09709230c")
@@ -10324,6 +10447,7 @@
 		)
 		(pin "15"
 			(uuid "608091e0-f793-4e2f-aac7-06d7db24734c")
+			(alternate "SPI1_SCK")
 		)
 		(pin "13"
 			(uuid "e06f2baf-0107-481f-96d4-606a7e6bb8ca")
@@ -10334,7 +10458,6 @@
 		)
 		(pin "31"
 			(uuid "cb3a295e-cb5b-44af-bbc0-8c64f21c29b7")
-			(alternate "USART1_RX")
 		)
 		(pin "26"
 			(uuid "a7b42cf7-e648-4eb4-b093-d1fac708f9ae")
@@ -10357,7 +10480,6 @@
 		)
 		(pin "30"
 			(uuid "e58dbe4d-9fb9-4b6e-ad85-a9082b1f44df")
-			(alternate "USART1_TX")
 		)
 		(pin "48"
 			(uuid "ceac44fd-0292-477e-86ad-ec2e89233d6d")
@@ -10368,9 +10490,11 @@
 		)
 		(pin "14"
 			(uuid "ad03dccb-ea1c-493a-a467-6b5af195b10d")
+			(alternate "SPI1_NSS")
 		)
 		(pin "21"
 			(uuid "a078866d-e094-4635-8686-dfbac1dc6eb3")
+			(alternate "USART3_TX")
 		)
 		(pin "23"
 			(uuid "f4addea9-9432-46aa-8e7e-655b63c7ca99")
