@@ -7734,7 +7734,7 @@
 			)
 		)
 	)
-	(global_label "VCC_3.3"
+	(global_label "VCC"
 		(shape input)
 		(at 271.78 44.45 90)
 		(fields_autoplaced yes)
@@ -7746,7 +7746,7 @@
 		)
 		(uuid "c839df13-a3a3-45ed-8f90-70224c3da55b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 271.78 33.8448 90)
+			(at 271.78 37.8362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9769,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 50.8 151.13 90)
 			(effects
 				(font
@@ -10115,7 +10115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100nF"
 			(at 124.46 38.0999 0)
 			(effects
 				(font
@@ -10618,7 +10618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "100nF"
 			(at 127 154.9399 0)
 			(effects
 				(font
