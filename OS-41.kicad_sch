@@ -6710,6 +6710,28 @@
 			)
 		)
 	)
+	(global_label "GPSPAUSE"
+		(shape input)
+		(at 290.83 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58d572e4-ad49-4956-b99e-b56cef1d4600")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.0477 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 40.64 247.65 180)
