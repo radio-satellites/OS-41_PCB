@@ -6192,6 +6192,26 @@
 			)
 		)
 	)
+	(global_label "PA15"
+		(shape bidirectional)
+		(at 361.95 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "167f0828-3740-4f65-9d84-e69a39dacf18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 133.35 149.86 0)
@@ -7982,28 +8002,6 @@
 			)
 		)
 	)
-	(global_label "VCC"
-		(shape input)
-		(at 361.95 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "da8d7b9c-b3b6-4a85-be9c-43da10d03391")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.5638 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 229.87 222.25 0)
@@ -8064,6 +8062,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA15"
+		(shape bidirectional)
+		(at 326.39 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e26c5b73-94ea-4a88-a25f-9191b8184d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
