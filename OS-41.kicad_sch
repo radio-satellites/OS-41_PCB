@@ -6,9 +6,9 @@
 	(paper "A3")
 	(title_block
 		(title "OS-41 High Altitude Balloon Telemetry Transmitter")
-		(rev "C")
+		(rev "E1")
 		(company "SVAA")
-		(comment 1 "Features: +20dBm Horus 4FSK transmitter + two temperature sensors + WiFi + GPS")
+		(comment 1 "Features: +20dBm Horus 4FSK transmitter + temperature and pressure sensors + GPS")
 	)
 	(lib_symbols
 		(symbol "ATGM:ATGM336H-5N31"
