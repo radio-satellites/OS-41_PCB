@@ -4697,6 +4697,16 @@
 		)
 		(uuid "159454a5-be18-40d2-8aca-d96b3813c254")
 	)
+	(text "C51927445"
+		(exclude_from_sim no)
+		(at 260.604 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18961f2a-b6ee-4dc2-80cb-9f98a730df78")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 39.116 256.032 0)

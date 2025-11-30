@@ -1,38 +1,39 @@
-ID;Designator;Footprint;Quantity;Designation
-1;C2;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;8.2pF
-2;U2;QFN50P400X400X90-21N;1;SI4432-B1-FMR
-3;R13,R5,R7,R6,R9,R2,R14,R18;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;8;10k
-4;L3,L5;L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;2;24nH
-5;L4;L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;39nH
-6;Y1;Crystal_SMD_3225-4Pin_3.2x2.5mm;1;25MHZ 9pF
-7;J2,J9,J3,J8;PinHeader_1x02_P2.54mm_Vertical;4;Conn_01x02_Pin
-8;C8,C13;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;2;1uF
-9;L9,L8;L_0402_1005Metric_Pad0.77x0.64mm_HandSolder;2;3.9 nH
-10;L6;IND-SMD_L3.3-W3.0;1;4.7uH
-11;D1,D3,D2;LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder;3;LED
-12;U6;LGA-10_L2.0-W2.0-P0.50-TL_BMP390L;1;BMP390L
-13;J4;SMA_Amphenol_901-144_Vertical;1;Conn_Coaxial
-14;C9,C12,C22,C18,C16,C19,C17,C7,C15,C14,C27,C20;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;12;100nF
-15;U3;SOT-23-6;1;MCP1640x-xCHY
-16;R4;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;562k
-17;C3;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;9.1pF
-18;C23,C1,C24;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;3;12pF
-19;C11,C4,C28;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;3;10uF
-20;Y2;Crystal_SMD_3215-2Pin_3.2x1.5mm;1;32.768KHz 6pF
-21;C5;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;4.7uF
-22;U4;GPSM-SMD_ATGM336H-TR;1;ATGM336H-5N31
-23;C25,C26;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;2;4.3pF
-24;U7;QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm;1;STM32F411CEUx
-25;C6;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;120pF
-26;R11,R12,R10;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;3;1k
-27;C10;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;22uF
-28;AE2;ANT_1575AT_JOT;1;1575AT43A0040
-29;L1;L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;270nH
-30;L2;L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;11nH
-31;L7;L_0603_1608Metric_Pad1.05x0.95mm_HandSolder;1;10uH
-32;Y3;Crystal_SMD_3225-4Pin_3.2x2.5mm;1;Crystal_GND24
-33;C29;C_0402_1005Metric_Pad0.74x0.62mm_HandSolder;1;1.5pF
-34;J6;PinHeader_1x04_P2.54mm_Vertical;1;Conn_01x04_Pin
-35;R3;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;976k
-36;R1;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;1;50
-37;C21;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;1;2.2uF
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"R4";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"562k";;;
+2;"C14,C28,C45,C9,C46,C48,C27,C11,C12,C4,C7,C47,C44";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";13;"100nF";;;
+3;"C5";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"4.7uF";;;
+4;"C29";"C_0402_1005Metric_Pad0.74x0.62mm_HandSolder";1;"1.5pF";;;
+5;"C32,C33";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"15pF";;;
+6;"C36,C37";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"14pF";;;
+7;"R9,R6,R13,R5,R18,R14,R2";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";7;"10k";;;
+8;"R12,R10,R11";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"1k";;;
+9;"D3,D2,D1";"LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder";3;"LED";;;
+10;"C43";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"10uF";;;
+11;"C6";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"120pF";;;
+12;"J2,J3";"PinHeader_1x02_P2.54mm_Vertical";2;"Conn_01x02_Pin";;;
+13;"L2";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"11nH";;;
+14;"C3";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"9.1pF";;;
+15;"C13,C8";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"1uF";;;
+16;"C10";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"22uF";;;
+17;"Y3";"Crystal_SMD_3225-4Pin_3.2x2.5mm";1;"30MHz 10pF";;;
+18;"L5,L3";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"24nH";;;
+19;"R1";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"50R";;;
+20;"AE2";"ANT_1575AT_JOT";1;"1575AT43A0040";;;
+21;"J5";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03";;;
+22;"U1";"Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering";1;"BME280";;;
+23;"U2";"QFN50P400X400X90-21N";1;"SI4432-B1-FMR";;;
+24;"U7";"LQFP-48_7x7mm_P0.5mm";1;"STM32F103C8Tx";;;
+25;"Y1";"Crystal_SMD_3215-2Pin_3.2x1.5mm";1;"32.768KHz 12.5pF";;;
+26;"J1";"PinHeader_2x03_P2.54mm_Vertical";1;"Conn_02x03_Counter_Clockwise";;;
+27;"C2";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"8.2pF";;;
+28;"L9,L8";"L_0402_1005Metric_Pad0.77x0.64mm_HandSolder";2;"3.9 nH";;;
+29;"C1";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"12pF";;;
+30;"L1";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"270nH";;;
+31;"U4";"GPSM-SMD_ATGM336H-TR";1;"ATGM336H-5N31";;;
+32;"U3";"SOT-23-6";1;"MCP1640x-xCHY";;;
+33;"J4";"SMA_Amphenol_901-144_Vertical";1;"Conn_Coaxial";;;
+34;"SW4";"SMD_SW_NEW_REDONE";1;"SW_Push";;;
+35;"L6";"IND-SMD_L3.3-W3.0";1;"4.7uH";;;
+36;"Y2";"Crystal_SMD_3225-4Pin_3.2x2.5mm";1;"8MHz 12pF";;;
+37;"R3";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"976k";;;
+38;"L4";"L_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"39nH";;;
