@@ -4877,6 +4877,16 @@
 		)
 		(uuid "f247d37a-cf9e-45de-b626-425752407d84")
 	)
+	(text "NOTE TO SELF: this inductor is currently out of stock - switch footprint to a different one"
+		(exclude_from_sim no)
+		(at 96.266 221.996 0)
+		(effects
+			(font
+				(size 0.254 0.254)
+			)
+		)
+		(uuid "fe8f904c-9eeb-447f-9960-bb3dd5a6a901")
+	)
 	(junction
 		(at 109.22 232.41)
 		(diameter 0)
